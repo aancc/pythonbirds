@@ -17,5 +17,10 @@ if __name__ == '__main__':
     print(darlla.idade)
     for filho in darlla.filhos:
         print(filho.nome)
-    print(darlla.filhos)
+    darlla.sobrenome = 'Régis'
+    del darlla.filhos
+    print(darlla.sobrenome)
+    print(darlla.__dict__)
+    print(augusto.__dict__)
+
 
